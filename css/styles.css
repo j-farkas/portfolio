@@ -33,3 +33,55 @@ body{
 .navbar-default{
   background-color:#7d9faa;
 }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  background-color:#9dbfca;
+}
+
+#about{
+  border:1px solid black;
+  padding:1px;
+  margin-bottom:5px;
+  border-radius:3px;
+}
+
+input[type='checkbox']{
+  display:none;
+}
+
+.lbl-toggle {
+  display: block;
+
+  font-weight: bold;
+
+  padding: 1rem;
+
+  color: #A77B0E;
+  background: #0022aa;
+
+  border-radius: 7px;
+}
+
+.lbl-toggle:hover {
+  color: #7C5A0B;
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
