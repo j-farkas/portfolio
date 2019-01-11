@@ -1,6 +1,6 @@
-# _Animal-shelter_
+# _Portfolio_
 
-#### _A webpage for an animal shelter, 1/10/19_
+#### _A webpage for my portfolio, 1/10/19_
 
 #### By _**Jared Farkas**_
 
