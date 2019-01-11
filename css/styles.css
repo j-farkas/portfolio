@@ -90,3 +90,7 @@ input[type='checkbox']{
 .invis{
   color:#7d9faa;
 }
+
+.active :not(.invis){
+  border-radius:7px;
+}
