@@ -65,17 +65,20 @@ input[type='checkbox']{
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
-  transition: max-height .25s ease-in-out;
 }
 
 .collapsible-contentam {
   max-height: 0px;
   overflow: hidden;
-  transition: max-height .25s ease-in-out;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 350px;
+}
+
+.toggle:checked + .lbl-toggle{
+  margin-bottom:-3px;
+  border-bottom:none;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-contentam {
