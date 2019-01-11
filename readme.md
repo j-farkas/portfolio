@@ -19,5 +19,9 @@ _A simple webpage to display my portfolio_
 
 _html, css, and bootstrap were used in this project_
 
+### License
+
+*This falls under MIT licensing*
+
 
 Copyright (c) 2016 **_Jared Farkas_**
