@@ -41,10 +41,7 @@ body{
 }
 
 #about{
-  border:1px solid black;
   padding:1px;
-  margin-bottom:5px;
-  border-radius:3px;
 }
 
 input[type='checkbox']{
@@ -69,11 +66,6 @@ input[type='checkbox']{
   overflow: hidden;
 }
 
-.collapsible-contentam {
-  max-height: 0px;
-  overflow: hidden;
-}
-
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 350px;
 }
@@ -81,10 +73,6 @@ input[type='checkbox']{
 .toggle:checked + .lbl-toggle{
   margin-bottom:-3px;
   border-bottom:none;
-}
-
-.toggle:checked + .lbl-toggle + .collapsible-contentam {
-  max-height: 350px;
 }
 
 .invis{
