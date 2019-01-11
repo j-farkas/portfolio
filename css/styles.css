@@ -3,7 +3,7 @@
   height:77px;
   width: 77px;
 }
-
+/*image size may change later, leaving a comment to denote that the difference should be about 20 pixels*/
 .marginfix{
   margin-bottom:-57px;
 }
@@ -13,6 +13,7 @@
 }
 body{
   background-color:#c7e1f9;
+  font-family:sans-serif;
 }
 
 #projects{
