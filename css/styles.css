@@ -17,7 +17,6 @@ body{
   font-family:sans-serif;
 }
 
-
 #projects{
   background-color:#adcfda;
 }
@@ -62,7 +61,6 @@ input[type='checkbox']{
   color: #6c4a00;
 }
 
-
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
@@ -84,4 +82,11 @@ input[type='checkbox']{
 
 .active :not(.invis){
   border-radius:7px;
+}
+
+ .arrow{
+    font-family:fantasy;
+    float: right;
+    color:red;
+
 }
