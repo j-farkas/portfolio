@@ -28,7 +28,7 @@ body{
 @media screen and (max-width: 768px)
 {
   #header{
-    margin-top:204px;
+    margin-top:304px;
   }
 }
 
@@ -58,6 +58,20 @@ input[type='checkbox']{
 }
 
 .lbl-toggle:hover {
+  color: #6c4a00;
+}
+
+.bg-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 1rem;
+  color: #906060;
+  background: #7d9faa;
+  border-radius: 7px;
+  margin-right: 91%;
+}
+
+.bg-toggle:hover {
   color: #6c4a00;
 }
 
