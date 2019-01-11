@@ -51,37 +51,23 @@ input[type='checkbox']{
 
 .lbl-toggle {
   display: block;
-
   font-weight: bold;
-
   padding: 1rem;
-
-  color: #A77B0E;
-  background: #0022aa;
-
+  color: #906060;
+  background: #7d9faa;
   border-radius: 7px;
 }
 
 .lbl-toggle:hover {
-  color: #7C5A0B;
+  color: #6c4a00;
 }
 
 .collapsible-content {
   max-height: 0px;
   overflow: hidden;
-
   transition: max-height .25s ease-in-out;
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 350px;
-}
-
-.toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
 }
