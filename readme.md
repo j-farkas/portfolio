@@ -6,7 +6,7 @@
 
 ## Description
 
-_A simple webpage to display animals available in a shelter_
+_A simple webpage to display my portfolio_
 
 ## Setup/Installation Requirements
 
