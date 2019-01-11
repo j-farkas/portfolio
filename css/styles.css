@@ -23,3 +23,9 @@ body{
 .container{
   margin-top:28px;
 }
+@media screen and (max-width: 768px)
+{
+  #header{
+    margin-top:204px;
+  }
+}
