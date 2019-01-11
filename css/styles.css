@@ -11,6 +11,7 @@
 #interests{
   background-color:#adcfda;
 }
+
 body{
   background-color:#c7e1f9;
   font-family:sans-serif;
@@ -23,6 +24,7 @@ body{
 .container{
   margin-top:28px;
 }
+
 @media screen and (max-width: 768px)
 {
   #header{
@@ -83,4 +85,8 @@ input[type='checkbox']{
 
 .toggle:checked + .lbl-toggle + .collapsible-contentam {
   max-height: 350px;
+}
+
+.invis{
+  color:#7d9faa;
 }
