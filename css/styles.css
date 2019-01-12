@@ -3,7 +3,7 @@
   height:77px;
   width: 77px;
 }
-/*image size may change later, leaving a comment to denote that the difference should be about 20 pixels*/
+
 .marginfix{
   margin-bottom:-57px;
 }
@@ -69,7 +69,6 @@ input[type='checkbox']{
 .toggle:checked + .lbl-toggle + .collapsible-content {
   max-height: 100%;
 }
-
 
 .toggle:checked + .lbl-toggle{
   margin-bottom:-3px;

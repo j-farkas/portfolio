@@ -14,7 +14,6 @@ _A simple webpage to display my portfolio_
 * _Open index.html in a browser with an internet connection_
 
 
-
 ## Technologies Used
 
 _html, css, and bootstrap were used in this project_
