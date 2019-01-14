@@ -12,6 +12,7 @@ _A simple webpage to display my portfolio_
 
 * _Clone Repository from https://github.com/j-farkas/portfolio_
 * _Open index.html in a browser with an internet connection_
+*_Or View at https:/j-farkas.github.io/portfolio_
 
 
 ## Technologies Used
